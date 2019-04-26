@@ -1,0 +1,133 @@
+[1mdiff --git a/User-Interface/great-idea-website/index.html b/User-Interface/great-idea-website/index.html[m
+[1mindex 92beabd..517f665 100644[m
+[1m--- a/User-Interface/great-idea-website/index.html[m
+[1m+++ b/User-Interface/great-idea-website/index.html[m
+[36m@@ -15,49 +15,88 @@[m
+ </head>[m
+ [m
+   <body>[m
+[31m-[m
+[31m-  Services[m
+[31m-  Product[m
+[31m-  Vision[m
+[31m-  Features[m
+[31m-  About[m
+[31m-  Contact[m
+[31m-[m
+[31m-  <img class="logo" src="img/logo.png" alt="Great Idea! Company logo.">[m
+[31m-  Innovation[m
+[31m-  On[m
+[31m-  Demand[m
+[31m-[m
+[31m-  Get Started[m
+[31m-[m
+[31m-  <img src="img/header-img.png" alt="Image of a code snippet.">[m
+[31m-[m
+[31m-  Features[m
+[31m-  Aliquam elementum magna eros, ac posuere elvit tempus et. Suspendisse vel tempus odio, in interdutm nisi. Suspendisse eu ornare nisl. Nullam convallis augue justo, at imperdiet metus scelerisque quis.[m
+[31m-[m
+[31m-[m
+[32m+[m[32m    <!-- Start of Menu -->[m
+[32m+[m[32m  <header>[m
+[32m+[m[32m    <nav>[m
+[32m+[m[32m      <ul>[m
+[32m+[m[32m        <li>Services</li>[m
+[32m+[m[32m        <li>Product</li>[m
+[32m+[m[32m        <li>Vision</li>[m
+[32m+[m[32m        <li>Features</li>[m
+[32m+[m[32m        <li>About</li>[m
+[32m+[m[32m        <li>Contact</li>[m
+[32m+[m[32m      </ul>[m
+[32m+[m[32m    </nav>[m
+[32m+[m
+[32m+[m[32m    <figure>[m
+[32m+[m[32m      <img class="logo" src="img/logo.png" alt="Great Idea! Company logo.">[m
+[32m+[m[32m    </figure>[m
+[32m+[m[32m  </header>[m
+[32m+[m[32m<!-- End of Menu -->[m
+[32m+[m
+[32m+[m[32m<!-- Start of  Jumbotron-->[m
+[32m+[m[32m  <section>[m
+[32m+[m[32m    <header>[m
+[32m+[m[32m      <h1>Innovation On Demand</h1>[m
+[32m+[m[32m      <button>Get Started</button>[m
+[32m+[m[32m    </header>[m
+[32m+[m
+[32m+[m[32m    <figure>[m
+[32m+[m[32m      <img src="img/header-img.png" alt="Image of a code snippet.">[m
+[32m+[m[32m    </figure>[m
+[32m+[m[32m  </section>[m
+[32m+[m[32m<!-- End of  Jumbotron-->[m
+[32m+[m
+[32m+[m[32m<!-- Start of Main-->[m[41m  [m
+[32m+[m[32m  <section>[m
+[32m+[m[32m    <h2> Features </h2>[m
+[32m+[m[32m    <p>Aliquam elementum magna eros, ac posuere elvit tempus et. Suspendisse vel tempus odio, in interdutm nisi. Suspendisse eu ornare nisl. Nullam convallis augue justo, at imperdiet metus scelerisque quis.</p>[m
+[32m+[m[41m  [m
+[32m+[m[32m  <h2>[m
+   About[m
+[31m-  Aliquam elementum magna eros, ac posuere elvit tempus et. Suspendisse vel tempus odio, in interdutm nisi. Suspendisse eu ornare nisl. Nullam convallis augue justo, at imperdiet metus scelerisque quis.[m
+ [m
+[31m-  <img class="middle-img" src="img/mid-page-accent.jpg" alt="Image of code snippets across the screen">[m
+[32m+[m[32m  </h2>[m
+[32m+[m[32m  <p>[m
+[32m+[m[32m    Aliquam elementum magna eros, ac posuere elvit tempus et. Suspendisse vel tempus odio, in interdutm nisi. Suspendisse eu ornare nisl. Nullam convallis augue justo, at imperdiet metus scelerisque quis.[m
+[32m+[m[32m  </p>[m
+   [m
+[31m-  Services[m
+[31m-  Aliquam elementum magna eros, ac posuere elvit tempus et. Suspendisse vel tempus odio, in interdutm nisi. Suspendisse eu ornare nisl. Nullam convallis augue justo, at imperdiet metus scelerisque quis.[m
+[31m-[m
+[31m-[m
+[31m-  Product[m
+[31m-  Aliquam elementum magna eros, ac posuere elvit tempus et. Suspendisse vel tempus odio, in interdutm nisi. Suspendisse eu ornare nisl. Nullam convallis augue justo, at imperdiet metus scelerisque quis.[m
+[31m-[m
+[31m-  Vision[m
+[31m-  Aliquam elementum magna eros, ac posuere elvit tempus et. Suspendisse vel tempus odio, in interdutm nisi. Suspendisse eu ornare nisl. Nullam convallis augue justo, at imperdiet metus scelerisque quis.[m
+[31m-[m
+[31m-  Contact[m
+[31m-  123 Way 456 Street[m
+[31m-  Somewhere, USA[m
+[31m-  1 (888) 888-8888[m
+[31m-  sales@greatidea.io[m
+[32m+[m[32m<figure>[m
+[32m+[m[32m    <img class="middle-img" src="img/mid-page-accent.jpg" alt="Image of code snippets across the screen">[m
+[32m+[m[32m</figure>[m
+[32m+[m
+[32m+[m[32m<h2>[m
+[32m+[m[32m    Services[m
+[32m+[m[32m</h2>[m
+[32m+[m[32m<p>[m
+[32m+[m[32m    Aliquam elementum magna eros, ac posuere elvit tempus et. Suspendisse vel tempus odio, in interdutm nisi. Suspendisse eu ornare nisl. Nullam convallis augue justo, at imperdiet metus scelerisque quis.[m
+[32m+[m[32m</p>[m
+[32m+[m
+[32m+[m[32m<h2>Product</h2>[m
+[32m+[m[32m<p>Aliquam elementum magna eros, ac posuere elvit tempus et. Suspendisse vel tempus odio, in interdutm nisi. Suspendisse eu ornare nisl. Nullam convallis augue justo, at imperdiet metus scelerisque quis.</p>[m
+[32m+[m
+[32m+[m[32m<h2>Vision</h2>[m
+[32m+[m[32m<p>Aliquam elementum magna eros, ac posuere elvit tempus et. Suspendisse vel tempus odio, in interdutm nisi. Suspendisse eu ornare nisl. Nullam convallis augue justo, at imperdiet metus scelerisque quis.</p>[m
+[32m+[m[32m  </section>[m
+[32m+[m[32m<!-- End of Main -->[m
+[32m+[m
+[32m+[m[32m<!--  Start of Contact -->[m
+[32m+[m[32m<section>[m
+[32m+[m[32m  <h2>Contact</h2>[m
+[32m+[m[32m  <address>[m
+[32m+[m[32m    123 Way 456 Street<br>[m
+[32m+[m[32m    Somewhere, USA<br>[m
+[32m+[m[32m    1 (888) 888-8888<br>[m
+[32m+[m[32m    sales@greatidea.io[m
+[32m+[m[32m  </address>[m
+[32m+[m[32m</section>[m
+[32m+[m[32m<!-- Start of Contact -->[m
+[32m+[m
+[32m+[m[32m<!-- Start of footer section -->[m
+[32m+[m[32m<footer>[m
+[32m+[m[32m  <h5>Copyright Great Idea! 2018</h5>[m
+[32m+[m[32m</footer>[m
+[32m+[m[32m<!-- End of footer section -->[m
+ [m
+[31m-  Copyright Great Idea! 2018[m
+   [m
+   </body>[m
+ </html>[m
+\ No newline at end of file[m
