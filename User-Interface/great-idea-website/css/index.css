@@ -174,7 +174,7 @@ h5 {
 	color: black;
 }
 
-.menu-container .logo {
+.menu-container .img {
 	margin-top: 20px;
 	margin-left: 50px;
 }
@@ -222,7 +222,7 @@ h5 {
 
 .main-container .top-main {
 	display: inline-block;
-	width: 570px;
+	width: 588px;
 	margin: 5px;
 }
 
@@ -235,7 +235,7 @@ h5 {
 
 .main-container .bottom-main {
 	display: inline-block;
-	width: 365px;
+	width: 387px;
 	margin: 5px;
 	margin-bottom: 20px;
 	/* padding-left: 10px; */
