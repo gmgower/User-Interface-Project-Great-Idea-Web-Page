@@ -207,7 +207,6 @@ h5 {
 }
 
 .jumbotron-container .logo1 {
-	display: inline-block;
 	position: relative;
 	left: 200px;
 	top: 50px;
@@ -238,9 +237,6 @@ h5 {
 	width: 387px;
 	margin: 5px;
 	margin-bottom: 20px;
-	/* padding-left: 10px; */
-	/* position: relative; */
-	/* right: 50px; */
 }
 /* End of Main Section */
 
